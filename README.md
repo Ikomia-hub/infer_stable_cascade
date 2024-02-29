@@ -54,15 +54,11 @@ display(algo.get_output(0).get_image())
 ```
 
 ## :sunny: Use with Ikomia Studio
-
 Ikomia Studio offers a friendly UI with the same features as the API.
-
 - If you haven't started using Ikomia Studio yet, download and install it from [this page](https://www.ikomia.ai/studio).
-
 - For additional guidance on getting started with Ikomia Studio, check out [this blog post](https://www.ikomia.ai/blog/how-to-get-started-with-ikomia-studio).
 
 ## :pencil: Set algorithm parameters
-
 - **prompt** (str) - default 'Anthropomorphic cat dressed as a pilot' : Text prompt to guide the image generation .
 - **negative_prompt** (str, *optional*) - default '': The prompt not to guide the image generation. Ignored when not using guidance (i.e., ignored if `guidance_scale` is less than `1`).
 - **prior_num_inference_steps** (int) - default '20': Stage B timesteps.
@@ -73,7 +69,6 @@ Ikomia Studio offers a friendly UI with the same features as the API.
 - **width** (int) - default '1024': The width in pixels of the generated image.
 - **num_images_per_prompt** (int) - default '1': Number of generated image(s).
 - **seed** (int) - default '-1': Seed value. '-1' generates a random number between 0 and 191965535.
-
 
 
 ```python
