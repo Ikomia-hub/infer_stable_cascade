@@ -219,12 +219,14 @@ class InferStableCascadeFactory(dataprocess.CTaskFactory):
         self.info.article_url = "https://arxiv.org/pdf/2112.10752.pdf"
         self.info.journal = "arXiv"
         self.info.year = 2023
-        self.info.license = "MIT License"
+        self.info.license = "STABILITY AI NON-COMMERCIAL RESEARCH COMMUNITY License"
         # URL of documentation
         self.info.documentation_link = "https://arxiv.org/abs/2306.00637"
         # Code source repository
         self.info.repository = "https://github.com/Ikomia-hub/infer_stable_cascade"
         self.info.original_repository = "https://github.com/Stability-AI/StableCascade"
+        # Python version
+        self.info.min_python_version = "3.10.0"
         # Keywords used for search
         self.info.keywords = "Stable Diffusion, Hugging Face, Stability-AI,text-to-image, Generative"
         self.info.algo_type = core.AlgoType.INFER
