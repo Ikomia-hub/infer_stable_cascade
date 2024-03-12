@@ -84,10 +84,10 @@ algo = wf.add_task(name = "infer_stable_cascade", auto_connect=False)
 algo.set_parameters({
     'prompt': 'Anthropomorphic cat dressed as a pilot',
     'negative_prompt': '',
-    'prior_num_inference_steps': '25',
+    'prior_num_inference_steps': '20',
     'prior_guidance_scale': '4.0',
-    'num_inference_steps': '100',
-    'guidance_scale': '1.0',
+    'num_inference_steps': '30',
+    'guidance_scale': '0.0',
     'seed': '-1',
     'width': '1024',
     'height': '1024',

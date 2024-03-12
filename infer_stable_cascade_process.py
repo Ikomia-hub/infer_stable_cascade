@@ -24,7 +24,6 @@ class InferStableCascadeParam(core.CWorkflowTaskParam):
         self.width = 1024
         self.num_inference_steps = 30
         self.prior_num_inference_steps = 20
-        self.num_inference_steps = 20
         self.num_images_per_prompt = 1
         self.seed = -1
         self.update = False
