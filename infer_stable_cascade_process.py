@@ -167,8 +167,6 @@ class InferStableCascade(core.CWorkflowTask):
             )
             results = self.decoder(
                 image_embeddings=prior_output.image_embeddings.half(),
-                height=param.height,
-                width=param.width,
                 prompt=param.prompt,
                 generator=self.generator,
                 negative_prompt=param.negative_prompt,
