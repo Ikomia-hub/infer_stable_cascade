@@ -210,7 +210,7 @@ class InferStableCascadeFactory(dataprocess.CTaskFactory):
         # relative path -> as displayed in Ikomia application process tree
         self.info.path = "Plugins/Python/Diffusion"
         self.info.version = "1.0.0"
-        self.info.icon_path = "icons/icon.png"
+        self.info.icon_path = "images/icon.png"
         self.info.authors = "Pablo Pernias and Dominic Rampas and Mats L. Richter and Christopher J. Pal and Marc Aubreville."
         self.info.article = "Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models"
         self.info.article_url = "https://arxiv.org/pdf/2112.10752.pdf"
