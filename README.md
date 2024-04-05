@@ -20,6 +20,7 @@
 </p>
 
 Stable Cascade is a diffusion model trained to generate images given a text prompt.
+*The Stable Cascade algorithm needs 17 GB of VRAM to run.*
 
 ![SD cascade](https://huggingface.co/stabilityai/stable-cascade/resolve/main/figures/collage_1.jpg)
 
